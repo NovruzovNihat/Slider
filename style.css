@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+body{
+    display:flex;
+    height: 100vh;
+    background-image: url(img/versus-vs-fight-battle-screen-background_1017-23762.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#slider{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow:  1px 2px 4px black;
+}
+#slider img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+ 
+}
+#next{
+    right: 5px;
+    top: 50%;
+}
+#prev{
+    left: 5px;
+    top: 50%;
+}
+#slider #title{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: darkred;
+    font-size: 40px;
+}
